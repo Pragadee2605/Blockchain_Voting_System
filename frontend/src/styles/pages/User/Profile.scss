@@ -1,0 +1,32 @@
+.profile-wrapper {
+  box-shadow: 2px 2px 10px rgba(50, 50, 50, 0.1);
+  padding: 150px;
+  display: grid;
+  border-radius: 10px;
+  box-sizing: border-box;
+  grid-template-columns: 1fr 2fr;
+  column-gap: 100px;
+  margin: 0 auto; /* Add this line to center the element horizontally */
+
+
+  .centered {
+    text-align: center;
+    left: 50%;
+    top: 45%; /* Adjust this value as needed */
+    position: absolute;
+    transform: translate(-50%, -50%);
+
+    
+
+    .person-icon {
+      * {
+        font-size: 4rem;
+        color: $theme-primary;
+      }
+    }
+
+    .username {
+      padding: 20px 0 20px 0;
+    }
+  }
+}
