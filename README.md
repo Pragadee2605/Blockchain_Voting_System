@@ -20,7 +20,9 @@ Install Dependencies:
 **
 
 npm install
+
 1st Run Backend
+
 2nd Run Frontend
 
 npm start
